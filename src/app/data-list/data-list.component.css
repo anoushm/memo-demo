@@ -1,0 +1,30 @@
+
+.data-list-wrapper {
+  margin: 15px;
+  background-color: red;
+  font-family: 'Courier New';
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.first-column {
+  height: 100px;
+  font-family: Lato;
+}
+
+.second-column {
+    height: 100px;
+    font-family: Lato;
+}
